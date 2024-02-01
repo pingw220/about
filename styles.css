@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 .headline{
     display:flex;
     background-color:#E8C872;
