@@ -123,16 +123,58 @@
     font-size:50px;
     font-weight:bold;
 }
-.subject{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:50px;
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
-.menu{
-    font-size:30px;
-    font-weight:bold;
+.resume{
+    font-size:20px;
+    font-weight: bold;
     font-family: Georgia, serif;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+.subinfo {
+    font-size:20px;
+    font-weight: normal;
+    font-family: Georgia, serif;
+}
+.education {
+    font-size:20px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.personalinfo {
+    font-size:20px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.intro {
+    font-size:20px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.skills {
+    font-size:20px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact {
+    font-size:20px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .section{
