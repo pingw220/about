@@ -159,6 +159,9 @@
     font-family: Georgia, serif;
     margin-bottom: 10px;
 }
+.resume :hover {
+    color: white;
+}
 
 .information {
     display: flex;
