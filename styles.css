@@ -122,6 +122,10 @@
     font-family: Georgia, serif;
     margin-bottom: 10px;
 }
+.resume a {
+    color: black;
+    text-decoration: none;
+}
 .resume :hover {
     color: gray;
 }
